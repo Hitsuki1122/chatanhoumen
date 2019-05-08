@@ -1,0 +1,37 @@
+body {
+    position: relative;
+}
+
+div {
+    position: absolute;
+    display: flex;
+    animation: anime 3s;
+    animation-iteration-count: infinite;
+}
+
+img {
+    width: 100vw;
+    height: 100vh;
+}
+
+@keyframes anime {
+    0% {
+        left: 0;
+    }
+
+    25% {
+        left: 0;
+    }
+
+    50% {
+        left: -100vw;
+    }
+
+    75% {
+        left: -200vw;
+    }
+
+    100% {
+        left: -300vw;
+    }
+}
